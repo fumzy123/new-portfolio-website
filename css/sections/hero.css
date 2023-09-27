@@ -1,0 +1,61 @@
+
+.hero{
+
+    /** Layout **/
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+
+    /* border: 2px solid red; */
+    /* margin: var(--edge-spacing) var(--edge-spacing) 0; */
+
+}
+
+
+
+.hero-content{
+
+    /** Box Model **/
+
+        /* box-sizing */
+        height: 571px;
+
+    /** Layout **/
+    flex: 2;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    /** Typography **/
+    font-family: var(--poppins);
+    font-size: 6rem;
+    font-weight: 700;
+}
+
+.hero-content__contact-button{
+
+    /** Typography **/
+    font-family: var(--poppins);
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+
+    /** Box Model **/
+        /* box-background */
+        background-color: black;
+
+        /* box-border */
+        border-radius: 40px;
+
+        /* box-spacing */
+        padding: 0.8em 1em;
+        
+        /* box-spacing */
+        width: 250px;
+}
+
+.hero-image{
+    /** Layout **/
+    flex: 1;
+}

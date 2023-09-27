@@ -1,0 +1,51 @@
+.skill__content {
+
+    /** Layout **/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill__grid{
+    
+    /** Layout **/
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+
+.skill__image-container{
+
+    /** Layout **/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /** Box Model **/
+        /* box-size */
+        width: 200px;
+        height: 200px;
+
+        /* box-border */
+        border-radius: 50%;
+        border: 3px black solid;
+}
+
+.skill__image{
+
+    width: 130px;
+}
+
+.skill__image-container p {
+    /** Tyography **/
+    font-family: var(--poppins);
+    font-size: 1rem;
+}
+
+.figma {
+    grid-row: 3 / 4;
+    grid-column: 2 / 3;
+}

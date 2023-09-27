@@ -1,0 +1,61 @@
+
+
+/* HEADER NAVBAR */
+.header_nav{
+
+    /** Layout **/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    /** Box Model **/
+
+        /* Box-border */
+        /* border: 2px solid green; */
+
+        /* Box-spacing */
+        /* margin: 0 auto; */
+    
+
+    /** Typography **/
+    font-family: var(--poppins);
+    font-size: 1.125rem;
+}
+
+
+/* HEADER LOGO */
+.header_logo{
+
+    /** Typography **/
+    text-transform: uppercase;
+    
+}
+
+
+
+/* HEADER MENU */
+.header_menu{
+
+    /** Box Model **/
+    /* Box-spacing */
+    
+
+    /** Layout **/
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    
+}
+
+.header_menu li{
+
+    /** Typography **/
+    list-style: none;
+}
+
+.header_menu li a{
+
+    /** Typography **/
+    text-decoration: none;
+    color: black;
+}

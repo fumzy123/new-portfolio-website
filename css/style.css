@@ -1,0 +1,111 @@
+
+
+/*** ------------------Import Google Fonts------------------------------ ***/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/*** Import the styling for other sections ***/
+@import url("sections/header.css");
+@import url("sections/hero.css");
+@import url("sections/about.css");
+@import url("sections/project.css");
+@import url("sections/skills.css");
+@import url("sections/contact.css");
+
+
+/*** -------------------CSS Variables for reusability across all files----------------------- ***/
+:root {
+    --poppins: 'Poppins', sans-serif;
+    --edge-spacing: 5px;
+    --nav-font-size: 18px;
+}
+
+/*** Utility classes ***/
+.rounded-boxes{
+
+    /** Box Model **/
+
+    /* box-background */
+    background-color: #EFD6B9;
+
+    /* box-border */
+    border-radius: 33px;
+
+    /* padding */
+    padding: 16px;
+
+}
+
+.side-spacing{
+    /** Box Model **/
+    /* box-spacing */
+    margin: var(--edge-spacing) var(--edge-spacing) 0;
+}
+
+
+.sub-heading{
+    /** Typography **/
+    font-family: var(--poppins);
+    font-size: 3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+
+
+
+
+/*----------------------- Reset CSS Styling------------------------------- */
+*, body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-color: #EFD6B9;
+}
+
+
+/*----------------------- General CSS Styling------------------------------- */
+.app{
+
+    /** Color **/
+    
+
+    /** Box Model **/
+
+        /* box-sizing */
+        width: 90%;
+        max-width: 1660px;
+        min-width: 900px;
+        /* height: 3000px; */
+
+        /* box-border */
+        border: 2px solid red;
+        
+
+        /* box-spacing */
+        /* margin: 28px 98px 0; */
+        margin: 28px auto 0;
+
+        /* box-position */
+        position: relative;
+}
+
+.background-rectangle{
+    
+    /** Box Model **/
+
+    /* box-sizing */
+    width: 100%;
+    height: 100%;
+
+    /* box-position */
+    position: absolute;
+    z-index: -1;
+
+    /* box-background */
+    background-color: black;
+}

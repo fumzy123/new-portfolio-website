@@ -1,0 +1,88 @@
+
+.project__content{
+    
+    /** Layout **/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.project__catalogue{
+
+    /** Layout **/
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+.project__card {
+    
+    
+
+    /** Layout **/
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-basis: 500px;
+    max-width: 50%;
+
+    /** Box Model **/
+
+        /* box-background */
+        background: black;
+
+        /* box-border */
+        border-radius: 10px;
+
+        /* box-spacing */
+        padding: 1em;
+        margin: 0 auto;
+
+
+    /** Color **/
+    color: white;
+
+    /** Typography **/
+    font-family: var(--poppins);
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+
+
+.project__thumbnail {
+    aspect-ratio: 1/1;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+
+/** Using backgroud images **/
+/* .project__thumbnail-container{
+    width: 400px;
+    height: 400px;
+    background-image: url('/assets/tic-tac-toe-project-image.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+} */
+
+/** Using Overflow and margins to crop and position **/
+/* .project__thumbnail-container{
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.project__thumbnail--small-size{
+    margin-left: -1900px;
+    
+    
+} */

@@ -1,0 +1,57 @@
+
+
+.about-content{
+
+    /** Layout **/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.about-content__title{
+
+    /** Box Model **/
+        /* box-spacing */
+        margin-top: 90px;
+}
+
+.about-content__info{
+
+    /** Layout **/
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+
+    /** Box Model **/
+    /* box-spacing */
+    margin: 20px;
+}
+
+.about-content__photo{
+    flex: 1;
+}
+
+.about-content__photo img {
+    /** Box Model **/
+
+        /* box-sizing */
+        /* width: 700px; */
+        max-width: 70%;
+        
+        object-fit: contain;
+        
+        /* box-border */
+        border-radius: 33px;
+}
+
+
+.about-content__info p {
+
+    /** Layout **/
+    flex: 1;
+
+    /** Typography **/
+    font-family: var(--poppins);
+    font-size: 18px;
+}
