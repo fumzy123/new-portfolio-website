@@ -83,7 +83,9 @@ body{
         /* height: 3000px; */
 
         /* box-border */
-        border: 2px solid red;
+        /* border: 2px solid red; */
+        border-bottom: 5px solid black;
+        overflow: hidden;
         
 
         /* box-spacing */
@@ -92,6 +94,8 @@ body{
 
         /* box-position */
         position: relative;
+
+
 }
 
 .background-rectangle{
@@ -109,3 +113,5 @@ body{
     /* box-background */
     background-color: black;
 }
+
+

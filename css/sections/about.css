@@ -21,7 +21,7 @@
     /** Layout **/
     display: flex;
     flex-direction: row;
-    gap: 0px;
+    gap: 60px;
 
     /** Box Model **/
     /* box-spacing */
@@ -29,7 +29,13 @@
 }
 
 .about-content__photo{
+
+    /** Layout  **/
     flex: 1;
+
+    display: flex;
+    justify-content: flex-end;
+
 }
 
 .about-content__photo img {
